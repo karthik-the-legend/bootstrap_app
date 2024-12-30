@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background: #3b3b3b;
+    padding: 1rem 0;
+}
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #f8f9fa !important;
+}
+
+/* Hero Section */
+.bg-gradient {
+    background: linear-gradient(135deg, #0062cc, #007bff);
+    color: rgb(50, 47, 240);
+    text-align: center;
+    padding: 3rem 0;
+}
+header img {
+    border: 5px solid #fff;
+}
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* Section Titles */
+section h2 {
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 3px solid #007bff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* About Section */
+.container {
+    padding: 2rem 1rem;
+}
+.text-muted {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* Skills Section */
+.card {
+    border: none;
+    background: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.card-body ul {
+    padding: 0;
+    list-style: none;
+}
+.card-body ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Portfolio Section */
+.portfolio img {
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.portfolio img:hover {
+    transform: scale(1.05);
+}
+.portfolio h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #007bff;
+}
+.portfolio p {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* Testimonials Section */
+blockquote {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+}
+blockquote p {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+/* Contact Section */
+form .form-control {
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+form button {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+    background: #3b3b3b;
+}
+footer a {
+    color: #007bff;
+    transition: color 0.3s;
+}
+footer a:hover {
+    color: #0056b3;
+}
+/* About Section Styling */
+.about-section img {
+    border: 5px solid #f8f9fa;
+    transition: transform 0.3s ease;
+}
+
+.about-section img:hover {
+    transform: scale(1.1);
+}
+
+.about-section ul {
+    line-height: 1.8;
+    padding-left: 0;
+    list-style: none;
+}
+
+.about-section ul li {
+    font-size: 1rem;
+    color: #495057;
+    margin-bottom: 0.5rem;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-gradient {
+    background: linear-gradient(135deg, #6c757d, #343a40);
+    color: white;
+}
+
+h1, h2, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    font-size: 14px;
+}
